@@ -1,0 +1,102 @@
+
+/* 1. Body: Font family and font size */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* 2. Header: Background color */
+header {
+    background-color: #34495e;
+    padding: 20px;
+}
+
+/* 3. Navigation: Background color */
+nav {
+    background-color: #2c3e50;
+    padding: 10px;
+}
+
+/* 4. Main: Background color and font size */
+main {
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 25px;
+    text-align: center;
+}
+
+/* 5. Footer: Background color */
+footer {
+    background-color: #34495e;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+/* 6. List items: Display and width */
+li {
+    display: inline-block;
+    width: 120px;
+    margin: 5px;
+}
+
+/* 7. H1: Text alignment, font family and color */
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: #ffffff;
+}
+
+/* 8. Paragraph: Line height */
+p {
+    line-height: 1.6;
+}
+
+/* Additional styling for navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Photo Gallery */
+#image {
+    width: 500px;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    color: #222222;
+    font-weight: bold;
+}
+
+.gallery {
+    margin: 20px;
+}
+
+.thumb {
+    width: 150px;
+    height: 110px;
+    object-fit: cover;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid #34495e;
+}
+
+.thumb:hover {
+    opacity: 0.8;
+}
